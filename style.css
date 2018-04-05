@@ -5,7 +5,7 @@
 	margin: 0 auto;
 	/*clear: both;*/
 }
-#gb{
+#nav{
 	text-align: right; /* mettre texte a droite */
 	text-decoration: none; /* pas de soulignage */
 }
@@ -25,25 +25,26 @@ footer
 	position: absolute;
 	width: 100%;
 	bottom: 0px;
-
-
-
 }
 
 .gauche{
 	float: left;	
 	text-align: left;
 	justify-content: flex-start;
-
+	margin: 15px;
 }
+
 .droite{
 	float: right;
 	text-align: right;
 	justify-content: flex-end;
-
+	margin: 15px;
 }
 
 a[href]{
 	color: #454545;
+}
 
+.pays{
+	margin: 15px;
 }
