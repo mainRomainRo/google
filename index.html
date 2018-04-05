@@ -15,6 +15,7 @@
 <body>
 <div id="wrapper">
 <!--	NAVBAR TOP-->
+
 	<nav id="navtop">
 		<ul class="toplist">
 			
@@ -26,7 +27,7 @@
 	</nav>
 <!--	END NAVBAR TOP-->
 <!--	CENTER-->
-	<div id="middle">
+	<div id="middle" class="hidden">
 		
 		<div class="box">
 			
@@ -35,11 +36,11 @@
 			</div>
 
 			<div class="form" dir="ltr">
-				<input type="texte" title="Rechercher" size=60px;" maxlength="2048"/>
+				<input id="recherche" type="text" title="Rechercher" size=60px;" maxlength="2048"/>
 			</div>
 
 			<div id="search_buttons">	
-				<button type="button" class="btn btn-default">Recherche Google</button>
+				<button type="button" class="btn btn-default" onclick="search()">Recherche Google</button>
          		<button type="button" class="btn btn-default">J'ai de la chance</button>
 			</div>
 	
@@ -75,5 +76,11 @@
 			</div>
 		</div>
 	</footer>
+	  <!-- BOUTON TOGGLE CENTER -->
+  <div id="overCenter">
+  	<button type="button" id= "okgoogle" name="show">OK GOOGLE!</button>
+  </div>
+  <!-- FIN BOUTON TOGGLE  -->
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>

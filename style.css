@@ -36,6 +36,9 @@ color: black;
 	height: 85%;
 }
 
+.hidden{
+  visibility: hidden;
+}
 .box{
 	width: 60%;
 	display: flex;
@@ -100,5 +103,12 @@ footer
 	position: absolute;
 	width: 100%;
 	bottom: 0px;
+}
+
+#overCenter{
+	position:fixed;
+	top:33%;
+	left:42%;
+}
 }
 
