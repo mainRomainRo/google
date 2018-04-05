@@ -20,6 +20,12 @@ function search(){
 window.onload = myPorn
 function myPorn(){
     setTimeout(()=>{
-    alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please")
+	var temp = "Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"
+	if (confirm(temp))
+	{
+		document.location.href= "https://www.youtube.com/watch?v=2YXVbyXot9Y"  // Code ou appel de fonction
+	}
   }, 10000)
 }
+
+
