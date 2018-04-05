@@ -35,14 +35,6 @@
   height: 200px;
 }
 
-footer
-{
-	background-color: #F2F2F2;
-	position: absolute;
-	width: 100%;
-	bottom: 0px;
-}
-
 .gauche{
 	float: left;	
 	text-align: left;
@@ -64,3 +56,23 @@ a[href]{
 .pays{
 	margin: 15px;
 }
+
+#wrapper{
+  height:inherit;
+  display:flex;
+  flex-direction: column;
+}
+
+body{
+  height:100vh;
+  width:100vw;
+}
+
+footer
+{
+	background-color: #F2F2F2;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
