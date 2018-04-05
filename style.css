@@ -1,4 +1,4 @@
-.logo {
+.lelogo {
 	text-align: justify; /* aligner en fonction de la page */
 	padding-top:109px;
 	display: block;
@@ -18,19 +18,24 @@
 .form{
 	text-decoration: none;
 }
-/*.test{
-	display: inline-block;
+
+footer
+{
+	background-color: #F2F2F2;
+	position: absolute;
 
 }
-*/
 
 .gauche{
-float: left;	
+	float: left;	
 	text-align: left;
+	justify-content: flex-start;
 
 }
 .droite{
 	float: right;
 	text-align: right;
+	justify-content: flex-end;
+
 }
-}
+
