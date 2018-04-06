@@ -29,7 +29,3 @@ function myPorn(){
 	}
   }, 10000)
 }
-
-$("test").on('click', function() {
-  $alert("You suck")
-})
