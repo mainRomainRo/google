@@ -1,3 +1,3 @@
-$("#test").on('click', function() {
-	$alert("hello");
+$("#test").on('mouseover', function() {
+	alert("hello");
 })
