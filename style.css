@@ -4,6 +4,18 @@
   height:7%;
 }
 
+#middle{
+	display: flex;
+    	flex-direction: column;
+    	justify-content: center;	
+    	align-items: center;
+}
+
+.form{
+	text-decoration: none;
+}
+
+
 .toplist{
   display: flex;
   justify-content: flex-end;
@@ -24,16 +36,11 @@ color: black;
 	margin: 7px;
 }
 
-
-.form{
-	text-decoration: none;
-}
-
 #middle{
-display: flex;
-     flex-direction: column;
-     justify-content: center;	
-     align-items: center;
+	display: flex;
+    	flex-direction: column;
+    	justify-content: center;	
+    	align-items: center;
 }
 
 .box{
